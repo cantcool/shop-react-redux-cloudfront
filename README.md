@@ -1,3 +1,8 @@
+# Hometask 2
+
+- S3: http://my-store-app-viachaslaut-sls.s3-website.eu-central-1.amazonaws.com/
+- CloudFront distribution: https://d3vpl89h56sp9m.cloudfront.net
+
 # React-shop-cloudfront
 
 This is frontend starter project for nodejs-aws mentoring program. It uses the following technologies:
