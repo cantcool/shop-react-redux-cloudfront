@@ -1,7 +1,6 @@
-# Hometask 2
+# Hometask 3
 
-- S3: http://my-store-app-viachaslaut-sls.s3-website.eu-central-1.amazonaws.com/
-- CloudFront distribution: https://d3vpl89h56sp9m.cloudfront.net
+- CloudFront distribution: https://d3ms30uko8tp9j.cloudfront.net
 
 # React-shop-cloudfront
 
