@@ -32,6 +32,8 @@ export default function AddProductToCart({ product }: AddProductToCartProps) {
     }
   };
 
+  const isAddDisabled = isFetching || product.count < 1;
+
   return cartItem ? (
     <>
       <IconButton disabled={isFetching} onClick={removeProduct} size="large">
@@ -43,8 +45,11 @@ export default function AddProductToCart({ product }: AddProductToCartProps) {
       </IconButton>
     </>
   ) : (
-    <IconButton disabled={isFetching} onClick={addProduct} size="large">
-      <CartIcon color={"secondary"} />
+    <IconButton disabled={isAddDisabled} onClick={addProduct} size="large">
+      <CartIcon
+        color={"secondary"}
+        sx={{ opacity: isAddDisabled ? "0.5" : "1" }}
+      />
     </IconButton>
   );
 }
