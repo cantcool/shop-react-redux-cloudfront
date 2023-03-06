@@ -18,14 +18,12 @@ test("Renders products list", async () => {
       description: "Product 1 description",
       price: 1,
       count: 1,
-      img: "https://thumbs.static-thomann.de/thumb/bdbmagic/pics/bdb/544597/17698599_800.jpg",
     },
     {
       id: "2",
       title: "Product 2",
       description: "Product 2 description",
       price: 2,
-      img: "https://thumbs.static-thomann.de/thumb/bdbmagic/pics/bdb/544597/17698599_800.jpg",
       count: 2,
     },
   ];
